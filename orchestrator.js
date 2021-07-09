@@ -9,8 +9,9 @@ function delay(ms) {
 }
 
 async function test() {
-	for (let i = 0; i < 100; i++) {
-		nodeEvents.emit(`start${mainState.node0}`)
+	for (let i = 0; i < 2; i++) {
+		console.log("ROUND: ==================== ", i);
+		nodeEvents.emit(`start${mainState.node0}`, {fromId: null})
 		await delay(400);
 	}
 }
