@@ -1,0 +1,23 @@
+{
+  "name": "simulator-001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Definework/simulator-001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Definework/simulator-001/issues"
+  },
+  "homepage": "https://github.com/Definework/simulator-001#readme",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.14"
+  }
+}
